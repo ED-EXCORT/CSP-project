@@ -154,7 +154,7 @@ def show_leaderboard(player_name, score, elapsed_time):
 # Main game loop
 def game_loop(player_name):
     # Load background image
-    background = pygame.image.load('image.png')  # Load the background image (replace with your image file)
+    background = pygame.image.load('background.png')  # Load the background image (replace with your image file)
 
     # Initialize the paddle, ball, and targets
     paddle = create_paddle()  # Create the paddle
